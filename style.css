@@ -4,6 +4,7 @@ html{
     font-size: 16px;
 }
 
+/* MOBILE */
 body{
     background-color: #171812;
     color: #F8F8F2;
@@ -24,16 +25,25 @@ header{
 header h1{
     margin-bottom: 0px;
     padding-bottom: 0px;
+    font-size: 7.5vw;
 }
 
 header p{
     margin-top: 0px;
 }
 
+nav{
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 nav span{
     border-bottom: #171812;
     border-style: solid;
     padding: 0px 5px;
+    margin: 0 3px;
 }
 
 main #Bio p{
