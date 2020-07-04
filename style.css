@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+
+html{
+    font-size: 16px;
+}
+
+body{
+    background-color: #171812;
+    color: #F8F8F2;
+    font-family: Roboto Mono;
+    display: flex;
+    flex-flow: column;
+    margin: 0px 20px;
+}
+
+header{
+    color: #A6E22E;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+header p{
+    margin-top: 0px;
+}
+
+nav span{
+    border-bottom: #171812;
+    border-style: solid;
+    padding: 0px 5px;
+}
+
+main #Bio p{
+    margin: 0px 10px;
+}
+
+main #project-links a{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 70vw;
+    margin-top: 3px;
+    border: solid #F8F8F2;
+}
+
+nav span:hover{
+    cursor: pointer;
+}
+
+nav a:link, nav a:visited{
+    color: #A6E22E;
+    text-decoration: none;
+}
+
+#project-links a:link, #project-links a:visited{
+    color: #F8F8F2;
+    text-decoration: none;
+}
