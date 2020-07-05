@@ -61,6 +61,8 @@ img{
     width: 70vw;
     margin-top: 3px;
     border: solid #F8F8F2;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 20px 0px black;
 }
 
 address{
