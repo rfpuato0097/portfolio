@@ -63,6 +63,10 @@ img{
     border: solid #F8F8F2;
 }
 
+address{
+    margin: 0px 15px 15px 15px;
+}
+
 nav span:hover{
     cursor: pointer;
 }
@@ -75,4 +79,27 @@ nav a:link, nav a:visited{
 #project-links a:link, #project-links a:visited{
     color: #F8F8F2;
     text-decoration: none;
+}
+
+/* Desktop */
+@media only screen and (min-width: 768px){
+
+body{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+header h1{
+    font-size: 1.75rem;
+}
+
+main{
+    width: 50vw;
+}
+
+img{
+    width: 30vw;
+}
+
 }
