@@ -67,12 +67,17 @@ img{
     width: 70vw;
     margin-top: 3px;
     border: solid #F8F8F2;
-    margin-bottom: 20px;
+    margin-bottom: 0;
     box-shadow: 10px 10px 20px 0px black;
 }
 
 address{
     margin: 0px 15px 15px 15px;
+}
+
+.used {
+    margin: 0;
+    padding: 0;
 }
 
 nav span:hover{
