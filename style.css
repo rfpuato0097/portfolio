@@ -71,6 +71,14 @@ img{
     box-shadow: 10px 10px 20px 0px black;
 }
 
+video{
+    width: 70vw;
+    margin-top: 3px;
+    border: solid #F8F8F2;
+    margin-bottom: 0;
+    box-shadow: 10px 10px 20px 0px black;
+}
+
 address{
     margin: 0px 15px 15px 15px;
 }
@@ -116,6 +124,10 @@ main{
 }
 
 img{
+    width: 30vw;
+}
+
+video{
     width: 30vw;
 }
 
